@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA514E919EB057C00250240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA514E819EB057C00250240 /* AppDelegate.swift */; };
+		FAA514EB19EB057C00250240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA514EA19EB057C00250240 /* ViewController.swift */; };
+		FAA514EE19EB057C00250240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA514EC19EB057C00250240 /* Main.storyboard */; };
+		FAA514F019EB057C00250240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA514EF19EB057C00250240 /* Images.xcassets */; };
+		FAA514F319EB057C00250240 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA514F119EB057C00250240 /* LaunchScreen.xib */; };
+		FAA514FF19EB057C00250240 /* HandyTwityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA514FE19EB057C00250240 /* HandyTwityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA514F919EB057C00250240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA514DB19EB057C00250240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA514E219EB057C00250240;
+			remoteInfo = HandyTwity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA514E319EB057C00250240 /* HandyTwity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyTwity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA514E719EB057C00250240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA514E819EB057C00250240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA514EA19EB057C00250240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA514ED19EB057C00250240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA514EF19EB057C00250240 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA514F219EB057C00250240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAA514F819EB057C00250240 /* HandyTwityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyTwityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA514FD19EB057C00250240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA514FE19EB057C00250240 /* HandyTwityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyTwityTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA514E019EB057C00250240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA514F519EB057C00250240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA514DA19EB057C00250240 = {
+			isa = PBXGroup;
+			children = (
+				FAA514E519EB057C00250240 /* HandyTwity */,
+				FAA514FB19EB057C00250240 /* HandyTwityTests */,
+				FAA514E419EB057C00250240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA514E419EB057C00250240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA514E319EB057C00250240 /* HandyTwity.app */,
+				FAA514F819EB057C00250240 /* HandyTwityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA514E519EB057C00250240 /* HandyTwity */ = {
+			isa = PBXGroup;
+			children = (
+				FAA514E819EB057C00250240 /* AppDelegate.swift */,
+				FAA514EA19EB057C00250240 /* ViewController.swift */,
+				FAA514EC19EB057C00250240 /* Main.storyboard */,
+				FAA514EF19EB057C00250240 /* Images.xcassets */,
+				FAA514F119EB057C00250240 /* LaunchScreen.xib */,
+				FAA514E619EB057C00250240 /* Supporting Files */,
+			);
+			path = HandyTwity;
+			sourceTree = "<group>";
+		};
+		FAA514E619EB057C00250240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA514E719EB057C00250240 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA514FB19EB057C00250240 /* HandyTwityTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA514FE19EB057C00250240 /* HandyTwityTests.swift */,
+				FAA514FC19EB057C00250240 /* Supporting Files */,
+			);
+			path = HandyTwityTests;
+			sourceTree = "<group>";
+		};
+		FAA514FC19EB057C00250240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA514FD19EB057C00250240 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA514E219EB057C00250240 /* HandyTwity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5150219EB057C00250240 /* Build configuration list for PBXNativeTarget "HandyTwity" */;
+			buildPhases = (
+				FAA514DF19EB057C00250240 /* Sources */,
+				FAA514E019EB057C00250240 /* Frameworks */,
+				FAA514E119EB057C00250240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyTwity;
+			productName = HandyTwity;
+			productReference = FAA514E319EB057C00250240 /* HandyTwity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA514F719EB057C00250240 /* HandyTwityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5150519EB057C00250240 /* Build configuration list for PBXNativeTarget "HandyTwityTests" */;
+			buildPhases = (
+				FAA514F419EB057C00250240 /* Sources */,
+				FAA514F519EB057C00250240 /* Frameworks */,
+				FAA514F619EB057C00250240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA514FA19EB057C00250240 /* PBXTargetDependency */,
+			);
+			name = HandyTwityTests;
+			productName = HandyTwityTests;
+			productReference = FAA514F819EB057C00250240 /* HandyTwityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA514DB19EB057C00250240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Salim Madjd";
+				TargetAttributes = {
+					FAA514E219EB057C00250240 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAA514F719EB057C00250240 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FAA514E219EB057C00250240;
+					};
+				};
+			};
+			buildConfigurationList = FAA514DE19EB057C00250240 /* Build configuration list for PBXProject "HandyTwity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA514DA19EB057C00250240;
+			productRefGroup = FAA514E419EB057C00250240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA514E219EB057C00250240 /* HandyTwity */,
+				FAA514F719EB057C00250240 /* HandyTwityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA514E119EB057C00250240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA514EE19EB057C00250240 /* Main.storyboard in Resources */,
+				FAA514F319EB057C00250240 /* LaunchScreen.xib in Resources */,
+				FAA514F019EB057C00250240 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA514F619EB057C00250240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA514DF19EB057C00250240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA514EB19EB057C00250240 /* ViewController.swift in Sources */,
+				FAA514E919EB057C00250240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA514F419EB057C00250240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA514FF19EB057C00250240 /* HandyTwityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA514FA19EB057C00250240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA514E219EB057C00250240 /* HandyTwity */;
+			targetProxy = FAA514F919EB057C00250240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA514EC19EB057C00250240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA514ED19EB057C00250240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA514F119EB057C00250240 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA514F219EB057C00250240 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5150019EB057C00250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA5150119EB057C00250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5150319EB057C00250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandyTwity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA5150419EB057C00250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandyTwity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA5150619EB057C00250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandyTwityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandyTwity.app/HandyTwity";
+			};
+			name = Debug;
+		};
+		FAA5150719EB057C00250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandyTwityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandyTwity.app/HandyTwity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA514DE19EB057C00250240 /* Build configuration list for PBXProject "HandyTwity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5150019EB057C00250240 /* Debug */,
+				FAA5150119EB057C00250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5150219EB057C00250240 /* Build configuration list for PBXNativeTarget "HandyTwity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5150319EB057C00250240 /* Debug */,
+				FAA5150419EB057C00250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA5150519EB057C00250240 /* Build configuration list for PBXNativeTarget "HandyTwityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5150619EB057C00250240 /* Debug */,
+				FAA5150719EB057C00250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA514DB19EB057C00250240 /* Project object */;
+}
